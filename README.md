@@ -37,8 +37,11 @@ These messages can be added with "Add reply"
 You must first have a bot set up. This can be done throught the [Discord Developer Portal](https://discord.com/developers/applications)
 
 You must start by going into [config.json](../blob/master/src/config.json) and add your bot's credentials.
+The `bot_id` field must be surronded by <@! and >
+
 
 #### Note ####
+
 The prefix and bot name is completely optional and does not relate to anything.
 The `server_general_id` is a reference to the channel id of the channel `general`
 
