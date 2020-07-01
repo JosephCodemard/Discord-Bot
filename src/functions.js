@@ -107,10 +107,19 @@ const ChangeNickname = async (client, msg, message) => {
         const id = msg.channel.id;
         const channel = client.channels.cache.get(id);
 
+        _array = message.split(" ");
+
+        for (let i = 0; i < _array.length; i++) {
+            if(_array[i] === ''){
+                _array.splice(i, 1);
+            }            
+        }
+
+
         if (!msg.guild.me.hasPermission('MANAGE_NICKNAMES')) {
             channel.send('I don\'t have permission to change your nickname!');
         }else{
-            msg.member.setNickname(message.split(" ")[2]);
+            msg.member.setNickname(_array[2]);
         }
 
     }
