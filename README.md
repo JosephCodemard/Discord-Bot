@@ -36,7 +36,7 @@ These messages can be added with "Add reply"
 
 You must first have a bot set up. This can be done throught the [Discord Developer Portal](https://discord.com/developers/applications)
 
-You must start by going into [config.json](../blob/master/src/config.json) and add your bot's credentials.
+You must start by going into [config.json](../master/src/config.json) and add your bot's credentials.
 The `bot_id` field must be surronded by <@! and >
 
 
