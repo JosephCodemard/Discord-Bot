@@ -81,6 +81,7 @@ This would make the command
 ## Documentation ##
 
 For the full documentation see [Wiki](https://github.com/JosephCodemard/Discord-Bot/wiki)
+
 ---
 
 ## Contributing ##
